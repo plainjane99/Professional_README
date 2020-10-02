@@ -3,20 +3,32 @@ function generateMarkdown(data) {
   return `
 # ${data.title}
 
-# Description
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+
+## Description <a name="description"></a>
 ${data.description}
 
-# Installation
+## Installation <a name="installation"></a>
 ${data.installation}
 
-# Usage
+## Usage <a name="usage"></a>
 ${data.usage}
 
-# Contributing
+## Contributing <a name="contributing"></a>
 ${data.contribution}
 
-# Tests
+## Tests <a name="tests"></a>
 ${data.test}
+
+## Questions <a name="questions"></a>
+My GitHub username is ${data.githubUsername}.  Please feel free to peruse my other projects.
+If you have any questions regarding this application, please contact me via email at ${data.email}.
 
   `;
 }
