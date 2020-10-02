@@ -1,0 +1,22 @@
+{
+  "name": "professional_readme",
+  "version": "1.0.0",
+  "description": "creates a professional readme through command line input",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plainjane99/Professional_README.git"
+  },
+  "author": "Jane Hsu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plainjane99/Professional_README/issues"
+  },
+  "homepage": "https://github.com/plainjane99/Professional_README#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
