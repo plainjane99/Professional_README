@@ -26,7 +26,72 @@ const questions = [
                 return false;
             }
         }
-    }
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Please provide a description. (Required)',
+        validate: descriptionInput => {
+            if (descriptionInput) {
+                return true;
+            } else {
+                console.log('Please provide a description.');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'Please provide installation instructions. (Required)',
+        validate: installationInput => {
+            if (installationInput) {
+                return true;
+            } else {
+                console.log('Please provide installation instructions.');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Please provide usage information. (Required)',
+        validate: usageInput => {
+            if (usageInput) {
+                return true;
+            } else {
+                console.log('Please provide usage information.');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'contribution',
+        message: 'Please provide contribution guidelines. (Required)',
+        validate: contributionInput => {
+            if (contributionInput) {
+                return true;
+            } else {
+                console.log('Please provide contribution guidelines.');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Please provide test instructions. (Required)',
+        validate: testInput => {
+            if (testInput) {
+                return true;
+            } else {
+                console.log('Please provide test instructions.');
+                return false;
+            }
+        }
+    },
 ];
 
 // function to write README file
