@@ -1,5 +1,7 @@
 
-# run buddy
+# joe
+
+![License](https://img.shields.io/badge/License-BSD_2.0-blue.svg)
 
 ## Table of Contents
 * [Description](#description)
@@ -7,25 +9,29 @@
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Tests](#tests)
+* [License](#license)
 * [Questions](#questions)
 
 ## Description <a name="description"></a>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ligula mi, bibendum id egestas vitae, mattis et dui. Aliquam ornare, quam eget efficitur rutrum, nisl sapien placerat erat, non mollis ante libero id arcu. In ornare libero et tempor auctor. Aliquam interdum rutrum ultricies. Sed eros odio, laoreet vitae mattis vel, scelerisque sit amet nisl. Donec et diam sed elit congue efficitur non eget velit. Donec efficitur justo mi, interdum aliquam elit molestie eleifend. Morbi maximus congue lacus sit amet fringilla.
+joe
 
 ## Installation <a name="installation"></a>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ligula mi, bibendum id egestas vitae, mattis et dui. Aliquam ornare, quam eget efficitur rutrum, nisl sapien placerat erat, non mollis ante libero id arcu. In ornare libero et tempor auctor. Aliquam interdum rutrum ultricies. Sed eros odio, laoreet vitae mattis vel, scelerisque sit amet nisl. Donec et diam sed elit congue efficitur non eget velit. Donec efficitur justo mi, interdum aliquam elit molestie eleifend. Morbi maximus congue lacus sit amet fringilla.
+joe
 
 ## Usage <a name="usage"></a>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ligula mi, bibendum id egestas vitae, mattis et dui. Aliquam ornare, quam eget efficitur rutrum, nisl sapien placerat erat, non mollis ante libero id arcu. In ornare libero et tempor auctor. Aliquam interdum rutrum ultricies. Sed eros odio, laoreet vitae mattis vel, scelerisque sit amet nisl. Donec et diam sed elit congue efficitur non eget velit. Donec efficitur justo mi, interdum aliquam elit molestie eleifend. Morbi maximus congue lacus sit amet fringilla.
+joe
 
 ## Contributing <a name="contributing"></a>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ligula mi, bibendum id egestas vitae, mattis et dui. Aliquam ornare, quam eget efficitur rutrum, nisl sapien placerat erat, non mollis ante libero id arcu. In ornare libero et tempor auctor. Aliquam interdum rutrum ultricies. Sed eros odio, laoreet vitae mattis vel, scelerisque sit amet nisl. Donec et diam sed elit congue efficitur non eget velit. Donec efficitur justo mi, interdum aliquam elit molestie eleifend. Morbi maximus congue lacus sit amet fringilla.
+joe
 
 ## Tests <a name="tests"></a>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ligula mi, bibendum id egestas vitae, mattis et dui. Aliquam ornare, quam eget efficitur rutrum, nisl sapien placerat erat, non mollis ante libero id arcu. In ornare libero et tempor auctor. Aliquam interdum rutrum ultricies. Sed eros odio, laoreet vitae mattis vel, scelerisque sit amet nisl. Donec et diam sed elit congue efficitur non eget velit. Donec efficitur justo mi, interdum aliquam elit molestie eleifend. Morbi maximus congue lacus sit amet fringilla.
+joe
+
+## License <a name="license"></a>
+This applicaion is covered under the BSD_2.0 license.
 
 ## Questions <a name="questions"></a>
-My GitHub username is mejane.  Please feel free to peruse my other projects.
-If you have any questions regarding this application, please contact me via email at jane@gmail.com.
+My GitHub username is joe.  Please feel free to peruse my other projects.
+If you have any questions regarding this application, please contact me via email at joe.
 
   

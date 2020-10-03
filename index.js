@@ -3,9 +3,8 @@
 const inquirer = require('inquirer');
 // accesses the fs module 
 const fs = require('fs');
-// adds the generateMarkdown module
+// adds the local modules
 const generateMarkdown = require('./utils/generateMarkdown.js');
-
 
 // function that queries the user for input
 const promptUser = () => {
@@ -91,6 +90,12 @@ const questions = [
                 return false;
             }
         }
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Please choose the license for your application. (Required)',
+        choices: ['Apache_2.0', 'BSD_2.0', 'MIT', 'GNU_GPL_2.0', 'GNU_GPL_3.0']
     },
     {
         type: 'input',
