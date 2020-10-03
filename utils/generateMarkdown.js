@@ -30,7 +30,7 @@ ${data.contribution}
 ${data.test}
 
 ## License <a name="license"></a>
-This applicaion is covered under the ${data.license} license.
+This application is covered under the ${data.license} license.
 
 ## Questions <a name="questions"></a>
 My GitHub username is ${data.githubUsername}.  Please feel free to peruse my other projects.

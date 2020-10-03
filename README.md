@@ -23,7 +23,7 @@ To install this application, please do the following:
     
     npm install
     
-    This will download the application's dependencies into your root directory.
+This will download the application's dependencies into your root directory.
 
 ## Usage <a name="usage"></a>
 To use the application, type the following into the command line at the root directory of the application:
@@ -39,7 +39,7 @@ Feel free to contribute and make this application even better!
 There are currently no test instructions.
 
 ## License <a name="license"></a>
-This applicaion is covered under the MIT license.
+This application is covered under the MIT license.
 
 ## Questions <a name="questions"></a>
 My GitHub username is plainjane99.  Please feel free to peruse my other projects.
