@@ -34,6 +34,7 @@ This application is covered under the ${data.license} license.
 
 ## Questions <a name="questions"></a>
 My GitHub username is ${data.githubUsername}.  Please feel free to peruse my other projects.
+
 If you have any questions regarding this application, please contact me via email at ${data.email}.
 
   `;

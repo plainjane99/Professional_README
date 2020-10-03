@@ -21,19 +21,25 @@ To install this application, please do the following:
 1. Clone the application's respository from GitHub onto your local drive.  
 2. Set up the npm package by typing the following into the root directory of the application: 
     
+    ```
     npm install
+    ```
     
-This will download the application's dependencies into your root directory.
+    This will download the application's dependencies into your root directory.  You should now have a folder called ```node_modules``` and a file called ```package-lock.json```.
 
 ## Usage <a name="usage"></a>
-To use the application, type the following into the command line at the root directory of the application:
+Once installation is complete, to use the application, type the following into the command line at the root directory of the application:
 
     node index
     
-The application will prompt you with a series of requirements for your project README.
+The application will prompt you for a series of requirements to be input into your project README.  You should be prompted for input as shown in the screenshot below.
+
+![User Prompts](./assets/images/Command_Line_Snip.png)
+
+Once all input has been provided, the application will generate the ```README.md```.
 
 ## Contributing <a name="contributing"></a>
-Feel free to contribute and make this application even better!
+Contributions are welcome.  Please contact me regarding improvements you would like to make.
 
 ## Tests <a name="tests"></a>
 There are currently no test instructions.
@@ -43,6 +49,7 @@ This application is covered under the MIT license.
 
 ## Questions <a name="questions"></a>
 My GitHub username is plainjane99.  Please feel free to peruse my other projects.
+
 If you have any questions regarding this application, please contact me via email at jane99hsu@gmail.com.
 
   
