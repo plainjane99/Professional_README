@@ -42,15 +42,8 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'Please provide installation instructions. (Required)',
-        validate: installationInput => {
-            if (installationInput) {
-                return true;
-            } else {
-                console.log('Please provide installation instructions.');
-                return false;
-            }
-        }
+        message: 'Please provide installation instructions.',
+        default: 'None required.'
     },
     {
         type: 'input',
@@ -68,28 +61,14 @@ const questions = [
     {
         type: 'input',
         name: 'contribution',
-        message: 'Please provide contribution guidelines. (Required)',
-        validate: contributionInput => {
-            if (contributionInput) {
-                return true;
-            } else {
-                console.log('Please provide contribution guidelines.');
-                return false;
-            }
-        }
+        message: 'Please provide contribution guidelines.',
+        default: 'Please contact me.'
     },
     {
         type: 'input',
         name: 'test',
-        message: 'Please provide test instructions. (Required)',
-        validate: testInput => {
-            if (testInput) {
-                return true;
-            } else {
-                console.log('Please provide test instructions.');
-                return false;
-            }
-        }
+        message: 'Please provide test instructions.',
+        default: 'No tests exist at this time.'
     },
     {
         type: 'list',
@@ -150,7 +129,7 @@ function init() {
             return generateMarkdown(userInputData);
         })
         .then(markdownData => {
-            return writeToFile("README.md", markdownData);
+            return writeToFile("README_new.md", markdownData);
         })
     ;
 }
